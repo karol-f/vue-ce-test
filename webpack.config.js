@@ -5,6 +5,7 @@ module.exports = {
   mode: "development",
   entry: {
     babelPolyfill: "@babel/polyfill",
+    cePolyfill: "document-register-element/build/document-register-element",
     components: "./src/components/index.js"
   },
   devtool: "source-map",
