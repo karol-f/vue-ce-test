@@ -4,7 +4,7 @@ const webpack = require("webpack");
 module.exports = {
   mode: "development",
   entry: {
-    babelPolyfill: "@babel/polyfill",
+    babelPolyfill: "core-js/es6",
     cePolyfill: "document-register-element/build/document-register-element",
     components: "./src/components/index.js"
   },
